@@ -20,7 +20,7 @@
 - [x] US#7 : Laisser libre cours à votre imagination
 
 Ce que j'ai fait dans l'US 7 
-- J'ai utilisé firebase Authentification et Firestore Database pour la gestion de mes utilisateurs et les inscriptions. Chaque utilisateurs possèdent son panier, qui est sauvegardé s'il se déconnecte. J'ai utilisé une format de données qui me permet de sauvegarder une collection "Cart" dans une collection "Users".
+- J'ai utilisé firebase Authentification et Firestore Database pour la gestion de mes utilisateurs et les inscriptions. Chaque utilisateurs possèdent son panier, qui est sauvegardé s'il se déconnecte. J'ai utilisé un format de données qui me permet de sauvegarder une collection "Cart" dans une collection "Users".
 ![image](https://github.com/MorganSauvignon/flutter_first_app/assets/70762614/e342c763-5746-4364-a3a7-e3fccc388061)
 - J'ai une bouton qui me permet de vider mon panier entièrement. 
 
