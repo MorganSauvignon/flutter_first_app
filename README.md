@@ -1,16 +1,37 @@
-# flutter_first_app
+# Flutter Application 
 
-A new Flutter project.
+## Fonctionnalités
 
-## Getting Started
+- **Authentification utilisateur** : Les utilisateurs peuvent créer un compte, se connecter et se déconnecter. 
 
-This project is a starting point for a Flutter application.
+- **Catalogue des activités** : Les utilisateurs peuvent parcourir les activités disponibles dans le catalogue, avec ou sans filtre. Ils peuvent ajouter l'activité directement en cliquant sur le logo "add" ou alors cliquer sur l'activité pour voir le détail de celle-ci. Dans le détails de l'activité nous pouvons y retrouver des informations supplémentaires et aussi un moyen de l'ajouter dans le panier. 
 
-A few resources to get you started if this is your first Flutter project:
+- **Gestion du panier** : Les utilisateurs peuvent ajouter des produits à leur panier, les visualiser, les modifier et les supprimer. Les paniers sont propres à chaques utilisateurs et sauvegardés dans la base de données.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Profil** : Un utilisateur peut voir son profil et modifier ses informations ainsi que son mot de passe. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## US 
+- [x] US#1 : [MVP] Interface de login
+- [x] US#2 : [MVP] Liste des activités
+- [x] US#3 : [MVP] Détail d’une activité
+- [x] US#4 : [MVP] Le panier
+- [x] US#5 : [MVP] Profil utilisateur 
+- [x] US#6 : Filtrer sur la liste des activités
+- [x] US#7 : Laisser libre cours à votre imagination
+
+Ce que j'ai fait dans l'US 7 
+- J'ai utilisé firebase Authentification et Firestore Database pour la gestion de mes utilisateurs et les inscriptions. Chaque utilisateurs possèdent son panier, qui est sauvegardé s'il se déconnecte. J'ai utilisé une format de données qui me permet de sauvegarder une collection "Cart" dans une collection "Users".
+![image](https://github.com/MorganSauvignon/flutter_first_app/assets/70762614/e342c763-5746-4364-a3a7-e3fccc388061)
+- J'ai une bouton qui me permet de vider mon panier entièrement. 
+
+
+
+
+
+# Test 
+
+L'application a été testé sur Google Chrome en format téléphone. 
+
+Par défaut, un utilisateur peut se connecter avec : 
+- email : default@gmail.com
+- password : default
